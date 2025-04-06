@@ -1,4 +1,490 @@
-# 1) Amazon Shopping App Reviews
+# 1) Toyota Used Car Market Trends and Price Prediction using ML
+
+* **objective:** This dashboard provides a machine learning-driven analysis of used Toyota car prices. It compares actual vs. predicted prices, reveals insights based on fuel type, transmission, engine size, and year, and helps understand how these factors influence pricing. The dashboard supports decision-making for dealers, buyers, and data scientists involved in price modeling and vehicle analytics.
+
+* **Power BI dashboard Image:**
+
+![Toyota Used car_page-0001](https://github.com/user-attachments/assets/a077dff4-6787-4e77-a821-b0086a8389ee)
+
+* **View Google colab link here for machine learning model:** https://colab.research.google.com/drive/1VmfshFrq85IC4AbDAkpv3Qq9nwC6tJ0g?usp=sharing
+
+* **Features:**
+   
+  * **KPI Metrics:**
+     * **Total Models:** Displays the total number of unique Toyota car models available for analysis.
+     * **Total Fuel Types:** Shows the diversity of fuel types (Petrol, Diesel, Hybrid, etc.) included in the dataset.
+     * **Average Price :** Represents the actual average market price across all Toyota used cars.
+     * **Average Predicted Price :** Highlights the average price predicted by the Machine Learning model, offering a benchmark for comparison.
+
+   * **Predicted Price by Year (Line Chart):**
+      * Shows ML-predicted total price trends from 2014 to 2019.
+      * Peak in 2017 ($24.2M) indicates high-value vehicle demand or better pricing models.
+      
+   * **Price vs Predicted Price by Car Model (Bar Chart):**
+      * Compares actual vs. predicted price for top models like Yaris, Aygo, Auris, C-HR, RAV4.
+      * Useful for spotting over/underpriced models.
+
+   * **Predicted Price by Fuel Type(Donut Chart):**
+      * Displays how predicted prices are distributed across fuel types (Petrol, Hybrid, Diesel).
+      * Useful for understanding how fuel preference impacts predicted value.
+   
+   * **Predicted Price by Transmission Type(Pie Chart):**
+      * Shows predicted price contributions by transmission type (Automatic, Manual, Semi-Auto).
+      * Highlights the transmission types most associated with higher predicted prices.
+
+   * **Average of Predicted Price by Engine Size (Scatter Plot):**
+      * Higher engine sizes generally associate with higher predicted prices.
+      * Helps understand pricing tiers based on engine performance.
+
+
+   * **Filtering Options:**
+      * **Fuel Type Filter:** Lets users narrow down analysis based on fuel type.
+      * **Transmission Filter:** Allows selection of transmission category for focused insights.
+
+   
+   * **Refresh Function:**
+      * **Refresh Button:** Updates the dashboard visuals to reflect the latest selections or changes in the data.
+
+
+* **Usage:**
+   * **Price Prediction Validation:**
+     * Compare actual prices to ML-predicted prices for each model, identifying potential over- or under-valuations.
+
+   * **Inventory Pricing Strategy:**
+     * Helps dealers set competitive pricing based on predicted trends across fuel types, transmission types, and engine size.
+
+   * **Trend Monitoring:**
+     * Reveals how predicted prices change over time (by year), aiding in forecasting and resale value estimation.
+
+   * **Model & Feature Impact Analysis:**
+     * Understand how different vehicle specs (fuel, transmission, engine size) affect predicted prices.
+
+
+
+# 2) Uber Trip Analysis Dashboard
+
+* **objective:** The Uber Trip Analysis Dashboard is an interactive Power BI visualization designed to provide deep insights into Uber trips, helping businesses optimize operations, pricing strategies, and driver availability. This dashboard enables stakeholders to analyze booking trends, payment preferences, trip distances, time-based booking patterns, and popular locations.
+
+* **Power BI dashboard Image:**
+
+![UberTrip Analysis_page-0001](https://github.com/user-attachments/assets/277b7689-09b4-4332-ad1e-caa13c816582)
+
+* **Features:**
+    * **KPI Metrics:**
+         * Total Bookings: The total number of Uber trips completed.
+         * Total Booking Value: The total revenue generated from Uber rides.
+         * Average Booking Value: The average revenue per booking.
+         * Total Trip Distance: The total distance covered by all trips.
+         * Average Trip Distance: The average distance of a single trip.
+         * Average Trip Time: The average duration of trips.
+    
+    * **Bookings by Time Period:**
+         * A line chart visualizing ride demand across different hours of the day.
+         * Identifies peak hours (morning rush, evening commute, late-night trips).
+
+    * **Bookings by Day of the Week:**
+         * Line chart comparing trip volume from Monday to Sunday.
+         * Highlights busiest and least busy days for Uber rides.
+
+    * **Bookings Heatmap:**
+         * A matrix grid (heatmap) showing ride demand across different days and times.
+         * Helps in driver allocation and surge pricing decisions.
+
+    * **Total Bookings by Location:**
+         * A bar chart showing areas with the highest ride demand.
+         * Identifies Uber hotspots like airports, business districts, and tourist areas.
+
+    * **Most Preferred Locations by Vehicle Type:**
+         * Analyzes demand for UberX, UberXL, Uber Black, and Uber Green across different locations.
+   
+    * **Farthest Trips & Common Routes:**
+         * Insights into long-distance trips and frequently traveled routes.
+
+    * **Total Bookings by Vehicle Type:**
+         * Bar chart comparing ride demand for different Uber services.
+         * Helps optimize the supply of vehicle types based on customer preferences.
+
+    * **Revenue & Distance by Vehicle Type:**
+         * Tracks which Uber service generates the highest revenue and total trip distance.
+
+    * **Total Bookings by Trip Type:**
+         * Pie chart differentiating daytime and nighttime rides.
+         * Helps in pricing adjustments and night-time ride planning.
+
+
+    * **Filtering:**
+         * Date Range: Select a specific time period for analysis.
+         * City Selection: Analyze ride trends in different locations.
+
+
+    * **Refresh Button:**
+
+         * Allows users to update the dashboard with the latest Uber trip data.
+
+* **Usage:**
+       
+    * **Ride Demand Analysis:**
+       * Helps operations teams understand ride demand across different times, days, and locations.
+
+
+    * **Driver Allocation & Surge Pricing:**
+       * Identifies peak hours and hotspots to optimize driver deployment and apply dynamic pricing.
+
+
+    * **Revenue & Performance Tracking:**
+       * Enables business managers to track revenue trends and compare different Uber services.
+
+
+    * **Customer Behavior Analysis:**
+       * Understands customer preferences for vehicle types, payment methods, and ride timings.
+
+
+    * **Strategic Decision-Making:**
+       * Data-driven insights help in pricing strategies, marketing campaigns, and fleet management.
+
+* **Visualizations:**
+   * **KPI Cards:**
+     * Display key figures like Total Bookings, Total Booking Value, Average Booking Value, Total Distance, and Average Trip Time.
+
+   * **Line Charts:**
+     * Bookings by Time Period: Shows ride demand fluctuations throughout the day.
+     * Bookings by Day of the Week: Analyzes weekday vs. weekend trends.
+
+
+   * **Pie Charts:**
+
+     * Bookings by Payment Type: Breaks down revenue by payment methods.
+     * Day vs. Night Rides: Compares the share of daytime vs. nighttime trips.
+
+   * **Bar Charts:**
+
+     * Top Booking Locations: Displays the most popular pickup/drop-off locations.
+     * Total Bookings by Vehicle Type: Compares demand for different Uber services.
+
+
+  * **Heatmap (Matrix Grid):**
+     * Bookings by Hour & Day: Highlights peak hours and demand distribution.
+
+
+
+
+# 3) Coffee Shop Sales Analysis:
+* **objective:** The Coffee Shop Sales Dashboard provides a detailed analysis of sales performance across different product categories, time periods, and locations. It helps business owners and managers track total sales, sales trends, and the most profitable products. With interactive filtering options, users can analyze data across different quarters, locations, and product categories to make informed decisions.
+
+* **Power BI sales dashboard Image :**
+
+![Coffee Shop Sales_page-0001](https://github.com/user-attachments/assets/ad34dd17-baea-4ed3-9845-a89b057b97fa)
+
+* **Features:**
+    * **Key Metrics Display:**
+        * Total Sales : Shows overall revenue generated.
+        * Average Sales : Represents the average sales value per transaction.
+        * Total Categories : Displays the number of product categories.
+        * Total Products : Indicates the variety of products available.
+
+     * **Sales Analysis:**
+       * Sales by Time Period: Pie chart showing sales distribution across morning, afternoon, and evening.
+       * Sales by Working Days: Comparison of weekday vs. weekend sales.
+       * Sales by Month: Line chart tracking monthly revenue trends.
+
+     * **Product Performance:**
+       * Top-Selling Products: Highlights best-selling items such as brewed black tea, herbal tea, and gourmet brewed coffee.
+       * Quarterly Sales Performance: Displays sales by quarter with quarter-over-quarter percentage changes.
+
+     * **Filtering Options:**
+       * Users can filter data by Quarter, Location, and Category to refine their analysis.
+
+     * **Refresh Button:**
+       * Allows users to update the dashboard with the latest data.
+
+
+* **Usage:**
+  * **Sales Performance Tracking:**
+    * Helps business owners and managers monitor overall sales and average sales per transaction.
+
+  * **Product Demand Analysis:**
+    * Identifies which products generate the highest revenue, aiding in inventory and marketing strategies.
+
+  * **Time-Based Sales Insights:**
+    * Shows how sales vary across different times of the day and different days of the week, helping with staffing and operational planning.
+
+  * **Trend Analysis:**
+    * Sales trends by month and quarter help in forecasting and making informed decisions about promotions or new product introductions.
+
+  * **Comparative Analysis:**
+    * Quarter-over-quarter percentage changes in sales help assess business growth and performance over time.
+
+
+* **Visualizations:**
+     * **KPI Cards:**
+         * Display key sales figures like total sales, average sales, product categories, and total products.
+
+     * **Line Chart:**
+         * Tracks monthly sales performance, highlighting fluctuations and peak sales periods.
+
+     * **Pie Charts:**
+         * Sales by Time Period: Breaks down revenue distribution across different times of the day.
+         * Sales by Working Days: Compares sales between weekdays and weekends.
+
+    * **Bar Charts:**
+         * Top-Selling Products: Displays highest-revenue-generating products.
+         * Quarterly Sales & Growth: Shows sales by quarter along with percentage changes for better comparative analysis.
+
+# 4)E-commerce sales and order Dashboard Analysis:
+* **objective:** The primary objective of this dashboard is to provide a comprehensive overview of the sales performance for an e-commerce platform, offering key insights into total sales, products, sellers, and sales trends over time. It is designed to help stakeholders monitor order performance, identify trends, and make data-driven decisions by highlighting essential metrics such as total orders, shipped and delivered orders, and invoiced amounts. The dashboard facilitates better logistics, sales forecasting, and operational efficiency while enabling actionable insights into sales patterns, product categories, and regional performance.
+
+* **Power BI sales dashboard Image :**
+![Brazzil-e-commerce_page-0001](https://github.com/user-attachments/assets/99449e3e-8e86-40e6-8696-da6a372556b3)
+
+* **Features:**
+   * **KPI Cards:**
+
+     * Total Products: Displays the total number of products listed.
+     * Total Sales: Total sales revenue generated.
+     * Avg Sales: Average sales value.
+     * Total Sellers: Total number of sellers on the platform.
+
+   * **Filters:**
+     * Dropdowns for filtering data by City, State, and Year.
+ 
+   * **Sales Analysis:**
+     * Sales by Working Days: Differentiates sales on weekdays vs. weekends using a donut chart.
+     * Sales by Time Period: A donut chart showing sales distribution across time periods (Afternoon, Morning, and Early Morning).
+     * Sales by Quarter: A horizontal bar chart comparing sales performance by quarters.
+
+  * **Trends:**
+     * Sales by Month: A line chart visualizing monthly sales trends over the year.
+
+  * **Product Performance:**
+     * Product Category Sales: A horizontal bar chart ranking product categories by sales revenue.
+
+  * **Interactivity:**
+     * Buttons for refreshing data and navigating orders.
+
+* **Usage:**
+    * **Business Performance Monitoring:**
+       * Helps stakeholders track overall sales performance and seller contribution to revenue.
+       * Assists in identifying trends and patterns across different periods.
+
+    * **Sales Strategy Optimization:**
+       * Enables decision-makers to adjust marketing and inventory strategies based on time-based and category performance insights.
+
+    * **Operational Planning:**
+       * Provides insights into high-sales periods, guiding staffing and logistics planning.
+
+    * **Regional Sales Insights:**
+       * The city and state filters help analyze regional sales performance, aiding in targeted marketing efforts.
+
+    * **Category-Based Marketing:**
+       * Businesses can identify top-performing product categories and allocate resources accordingly.
+
+* **Visualizations:**
+    * **Numeric KPI Cards:**
+      * Highlight key metrics such as total products, total sales, average sales, and total sellers.
+    * **Line Chart (Sales by Month):**
+      * Tracks monthly sales fluctuations, revealing peak and low-performing months.
+    * **Donut Charts:**
+      * Sales by Working Days: Illustrates sales distribution between weekdays and weekends.
+      * Sales by Time Period: Visualizes sales contributions across different times of the day.
+
+    * **Bar Charts:**
+      * Sales by Quarter: Shows quarterly sales revenue distribution.
+      * Product Category Sales: Displays the highest-selling product categories in descending order.
+
+* **Power BI order dashboard Image:**
+![Brazzil-e-commerce_page-0002](https://github.com/user-attachments/assets/d19106d5-dce4-4f8e-974d-95ce236f7bc9)
+
+* **Features:**
+   * **Order Overview:**
+        * Displays total number of orders, delivered orders, shipped orders, and invoiced orders.
+        * Helps track fulfillment efficiency and pending orders.
+   * **Filters:**
+        * Dropdown filters for city, state, and year allow users to customize data views based on geographic and time-based parameters.
+  
+   * **Order Analysis:**
+        *  Breakdown of orders based on working days (weekday vs. weekend).
+        *  Orders distributed across different quarters of the year.
+   * **Trend Analysis:**
+        * Monthly order trends visualized to show peaks and drops in sales.
+
+   * **Category Performance:**
+        * Identifies product categories generating the highest orders, helping in understanding consumer preferences.
+  
+   * **Navigation Controls:**
+        * Options to go to the home page and refresh the data to get updated metrics.
+
+* **Usage:**
+  * **Business Insights:**
+    * Helps business managers track order fulfillment rates and identify potential issues in logistics and invoicing.
+ 
+  * **Sales Performance Tracking:**
+    * Allows sales teams to analyze trends across months and quarters to forecast demand.
+  
+  * **Category Optimization:**
+    * Enables marketing and inventory teams to focus on high-performing product categories.
+  
+  * **Operational Decision-Making:**
+    * Provides data-driven insights to optimize warehouse operations and improve delivery times.
+  
+  * **Regional Analysis:**
+    * Filters for city and state help analyze performance across different locations.
+
+* **Visualizations:**
+  * **Key Metrics Tiles:**
+    * Large numerical representations of total orders, delivered orders, shipped orders, and invoiced orders.
+  
+  * **Line Chart (Orders by Month):**
+    * Monthly trend showcasing fluctuations in order volume across the year.
+  
+  * **Donut Chart (Orders by Working Days):**
+    * Displays the proportion of orders placed on weekdays vs. weekends.
+
+  * **Bar Chart (Orders by Quarter):**
+    * Compares order volume across four quarters of the year.
+
+  * **Horizontal Bar Chart (Category Performance):**
+    * Shows top-performing product categories with respective order counts.
+
+
+# 5)Pizza Place Sales Dashboard
+* **Objective:** The dashboard's goal is to provide insights into sales performance for a pizza place by analyzing key metrics like total pizzas sold, sales trends, and category-wise distribution. This helps business owners make informed decisions about menu offerings, sales strategies, and time-based promotions.
+
+* **Power BI dashboard Image :**
+
+![Pizza Place Sales_page-0001](https://github.com/user-attachments/assets/37023c08-b5a0-48a8-a180-a5e11e6f3372)
+
+* **Features:**
+  * Key Metrics: Display total pizzas sold, total sales, average sales, and pizza categories.
+  * Category Insights: Pie chart for sales distribution by category (Classic, Supreme, Chicken, Veggie).
+  * Time Analysis: Sales trends by month, quarter, and time of day (morning, afternoon, evening, night).
+  * Best Sellers: Highlight top-selling pizzas with revenue figures.
+  * Filters: Dynamic filtering by pizza size and day.
+  * Interactive Updates: Refresh button for real-time data updates.
+
+* **Usage:**
+  * **This dashboard can be used by:**
+      * **Pizza Place Owners: To evaluate sales performance and adjust strategies.**
+      * **Marketing Teams: To design promotions targeting specific categories or time slots.**
+      * **Operations Teams: To manage inventory and staffing based on peak sales times.**
+        
+* **Visualizations:**
+    * **KPI Cards:**
+      * Showcases key performance metrics like total pizzas sold, total sales, and average sales.
+    * **Pie Charts:**
+      * Sales by Category: Visualize the contribution of different pizza categories.
+      * Sales by Time Period: Highlights the best-performing time slots.
+    * **Bar Charts:**
+      * Quarterly Sales: Compare sales performance across quarters.
+      * Top Pizzas: Display the best-selling pizzas with corresponding revenue.
+    * **Line Chart:**
+      * Sales by Month: Tracks monthly sales trends for seasonal insights.
+    * **Filters and Refresh:**
+      * Easy-to-use dropdown filters and a refresh button for real-time updates.
+
+
+
+# 6) Stock Analysis Dashboard
+* **Objective:** The Adani Stock Dashboard provides a comprehensive analysis of stock performance across companies within the Adani Group. It offers key insights into stock highs, lows, openings, closings, and volumes, helping stakeholders track and compare company performance efficiently. The dashboard is interactive, user-friendly, and designed for quick data interpretation.
+
+* **Power BI dashboard Image :**
+
+![Adani Stock_page-0001](https://github.com/user-attachments/assets/63caaa57-813c-4c7e-bd9d-4c4815813632)
+
+* **Features:**
+  * Key Performance Metrics: Highlights daily high, low, open, and close values of Adani stocks.
+  * Company-Wise Analysis: Displays the highest high, open, low, and close values for individual companies.
+  * Volume Breakdown: Treemap visualization to identify companies with the highest stock trading volumes.
+  * Comparative Charts: Bar charts and pie charts for clear company-wise comparisons.
+  * Dynamic Filtering: Dropdown filters for year and month selection to customize data views.
+  * Real-Time Refresh: Refresh button to update and fetch the latest stock data.
+
+
+* **Usage**:
+   * **Investors and Analysts:**
+     * Track daily stock performance for investment decisions.
+
+   * **Company Stakeholders:**
+     * Understand how individual companies within the Adani Group are performing.
+
+   * **Market Researchers:**
+     * Analyze stock trends and trading volumes to predict future performance.
+
+   * **Decision Makers:**
+     * Compare high-performing stocks to allocate resources effectively.
+
+
+* **Visualizations:**
+  * **Key Metrics Cards:**
+    * Displays total high, low, open, and close stock prices with easy-to-read values.
+  * **Pie Charts:**
+    * Breakdown of the highest open and low values by company.
+
+  * **Bar Charts:**
+    * Comparative view of the highest close values by company.
+
+  * **Treemap:**
+    * Visualizes the highest volume by company, highlighting major contributors.
+
+  * **Interactive Filters:**
+    * Dropdowns for filtering stock data by year and month, ensuring user-specific analysis.
+
+  * **Interactive Buttons:**
+    * Refresh button to load the latest stock data seamlessly.
+
+
+# 7) Samsung Customer Reviews
+* **Objective:** Samsung Customer Reviews Dashboard provides a visual representation of customer feedback, product ratings, and reviews over time. It helps businesses analyze trends in customer satisfaction, identify top-performing products, and understand key factors                   influencing ratings.
+
+* **Power BI dashboard Image :**
+![Samsung Customer Reviews_page-0001](https://github.com/user-attachments/assets/d2f75e0f-7767-47cb-affe-d18afc90e0b3)
+
+* **Features:**
+
+  * **User-Friendly KPI Cards:** 
+     * Quick insights into key performance metrics.
+  * **Interactive Filters:** 
+     * Dropdown selection for filtering by year.
+  * **Visual Trend Analysis:** 
+     * Line chart for monthly review trends.
+  * **Customer Sentiment Analysis:** 
+     * Breakdown of rating distribution by issue type and category.
+  * **Top-Performing Products:** 
+    * Bar charts showcasing the most-reviewed products.
+  * **Real-Time Data Refresh:** 
+    * A refresh button to update the dashboard dynamically.
+
+* **Usage:**
+   * **Tracking customer reviews and ratings for Samsung products.**
+   * **Identifying trends in customer satisfaction over time.**
+   * **Understanding which product categories generate the most reviews.**
+   * **Analyzing the impact of different issue types (price, product, service) on ratings.**
+   * **Providing insights for improving product quality and customer experience.**
+
+
+* **Visualizations**
+   * **KPI Cards:**
+      * Total Reviews: Displays the total number of customer reviews received.
+      * Total Customers: Number of unique customers who left reviews.
+      * Total Products: Number of products reviewed.
+      * Average Rating: Overall average customer rating.
+
+   * **Filters & Interactivity:**
+      * Year Dropdown: Allows users to filter data by year.
+      * Refresh Button: Updates the dashboard with selected filters.
+
+   * **Donut Charts (Rating Analysis):**
+      * Average Rating by Issue Type: Breakdown of ratings based on factors like price, product quality, and service.
+      * Average Rating by Category: Shows the rating distribution across different product categories (Fridge, Washing Machine, Wearables).
+
+   * **Bar Charts:**
+      * Reviews by Category: Displays the number of reviews per product category (Mobile, TV, Audio, Fridge).
+      * Which Product Generates the Highest Reviews? Highlights the top-reviewed Samsung products.
+
+   * **Line Chart:**
+      * Reviews by Month: Tracks the number of reviews received each month to identify trends and seasonal variations.
+
+
+# 8) Amazon Shopping App Reviews
 * **Objective:** The primary goal of this dashboard is to analyze user reviews of the Amazon Shopping App to derive meaningful insights. It aims to Understand user feedback trends.
   Identify the most common review themes.Evaluate app performance across different versions and user types.Provide actionable insights for improving the user experience and addressing user concerns.
 
@@ -69,7 +555,7 @@
       * Update dashboard data dynamically.
 
 
-# 2) Zepto Product Analytics Dashboard                                                                                                                                                                                                                                        
+# 9) Zepto Product Analytics Dashboard                                                                                                                                                                                                                                        
 * **Objective:**  A dashboard that serves as a consolidated view of all Zepto product data Users can get metrics including totals for items, categories, and companies; pricing insights; item distribution by category and brand. This aims to help product managers and decision-makers at Zepto get a deeper sense of distribution, availability by category, and pricing trends.
 
 * **Power BI dashboard Image :**
@@ -99,7 +585,7 @@
   * Company Price Tree Map: A tree map that shows the relative pricing of products by different companies.
 
 
-# 3) Indeed Analytics Dashboard:
+# 10) Indeed Analytics Dashboard:
 
 * **Objective:** Indeed Job Analytics Dashboard allows users to analyze job listings data provided by Indeed. The dashboard features important stats such as total jobs, total companies, and average pay. The tool also breaks down job postings by the company posting, type of jobs, location and types of companies that are hiring which helps in recognizing patterns in hires, salary spreads and best employers on each city.
 
@@ -134,7 +620,7 @@
   * City Salary Bar Chart: Shows the average salary distribution by city.
 
 
-# 4) Ajio Fashion Store
+# 11) Ajio Fashion Store
 
 * **Objective**: Utilize Power BI and Google Looker Studio to create an interactive dashboard that helps track and analyze fashion sales data for different product categories, customdemographics, colors and Brands.
 This dynamic dashboard will assist in optimizing sales strategy, monitoring customer trends, and identifying growth opportunities within the fashion retail space.
@@ -166,7 +652,7 @@ This dynamic dashboard will assist in optimizing sales strategy, monitoring cust
 * **Deep Dive into the Data**: Drill-through features allow for a detailed analysis of fashion sales by categories. This helps you pinpoint which products resonate with customers during different seasons and plan inventory accordingly.
 
 
- # 5) Myntra Fashion Store
+ # 12) Myntra Fashion Store
 
 * **Objective:** Utilize Power BI and Google Looker Studio to create an interactive dashboard that helps track and analyze fashion sales data for different product categories, customer demographics, and regions. 
 This dynamic dashboard will assist in optimizing sales strategy, monitoring customer trends, and identifying growth opportunities within the fashion retail space.
@@ -200,7 +686,7 @@ This dynamic dashboard will assist in optimizing sales strategy, monitoring cust
    * Individual Category: tops,blazer,coats etc.
 
 
-# 6) ChatGPT App Reviews :
+# 13) ChatGPT App Reviews :
 
 * **Objective**: To analyze ChatGPT app reviews, providing insights into user feedback, identifying key issues, and tracking trends related to user satisfaction over time. This project will help improve app features and user experience by examining common themes and sentiments expressed by users in their reviews.
 
@@ -228,7 +714,7 @@ This dynamic dashboard will assist in optimizing sales strategy, monitoring cust
    *  Breakdown of reviews by different app features (Prompt,content).
 
 
-# 7) Healthcare Analysis :
+# 14) Healthcare Analysis :
 
 * **Objective :** The Healthcare Analysis Dashboard is designed to provide an insightful view into patient demographics, doctor performance, and medical conditions. 
 This dynamic dashboard, developed using Power BI or Google Looker Studio, helps healthcare administrators and professionals to track patient data, hospital performance, and key metrics across multiple dimensions such as gender, age group, and medical conditions. 
@@ -262,7 +748,7 @@ The goal is to enable data-driven decisions to improve healthcare services and m
   * Monitor KPIs for an overall snapshot.
   * Explore visualizations for detailed insights.
 
-# 8) Spotify Music :
+# 15) Spotify Music :
 
 * **Objective** :
     The objective of this project is to provide a comprehensive music analytics dashboard using data from Spotify. 
